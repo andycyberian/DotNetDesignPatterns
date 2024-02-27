@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetDesignPatterns", "DotNetDesignPatterns\DotNetDesignPatterns.csproj", "{DE5CD99B-41EE-47C6-A574-014B160B9B41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetDesignPatterns", "DotNetDesignPatterns\DotNetDesignPatterns.csproj", "{DE5CD99B-41EE-47C6-A574-014B160B9B41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{CD4A188B-E4FC-41A1-A164-6C267070FC59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{CD4A188B-E4FC-41A1-A164-6C267070FC59}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioural", "Behavioural", "{913B0275-D66B-4660-AFA9-2E1EFDC9CB25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{DF341467-5857-4924-BA19-F529988A5E4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{DF341467-5857-4924-BA19-F529988A5E4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{40AEAC07-0396-4E1B-88BE-3EE4C8ADA16C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{DF341467-5857-4924-BA19-F529988A5E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF341467-5857-4924-BA19-F529988A5E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF341467-5857-4924-BA19-F529988A5E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40AEAC07-0396-4E1B-88BE-3EE4C8ADA16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40AEAC07-0396-4E1B-88BE-3EE4C8ADA16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40AEAC07-0396-4E1B-88BE-3EE4C8ADA16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40AEAC07-0396-4E1B-88BE-3EE4C8ADA16C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CD4A188B-E4FC-41A1-A164-6C267070FC59} = {913B0275-D66B-4660-AFA9-2E1EFDC9CB25}
 		{DF341467-5857-4924-BA19-F529988A5E4E} = {913B0275-D66B-4660-AFA9-2E1EFDC9CB25}
+		{40AEAC07-0396-4E1B-88BE-3EE4C8ADA16C} = {913B0275-D66B-4660-AFA9-2E1EFDC9CB25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A8DB877-E851-4BD6-A249-C876C6E51B71}
