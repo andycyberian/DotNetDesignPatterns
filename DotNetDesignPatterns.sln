@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioural", "Behavioural"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{DF341467-5857-4924-BA19-F529988A5E4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{40AEAC07-0396-4E1B-88BE-3EE4C8ADA16C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{40AEAC07-0396-4E1B-88BE-3EE4C8ADA16C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{A0D5197E-B3F4-4A0E-925C-BA54AE30126A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{40AEAC07-0396-4E1B-88BE-3EE4C8ADA16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40AEAC07-0396-4E1B-88BE-3EE4C8ADA16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40AEAC07-0396-4E1B-88BE-3EE4C8ADA16C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D5197E-B3F4-4A0E-925C-BA54AE30126A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D5197E-B3F4-4A0E-925C-BA54AE30126A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D5197E-B3F4-4A0E-925C-BA54AE30126A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D5197E-B3F4-4A0E-925C-BA54AE30126A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{CD4A188B-E4FC-41A1-A164-6C267070FC59} = {913B0275-D66B-4660-AFA9-2E1EFDC9CB25}
 		{DF341467-5857-4924-BA19-F529988A5E4E} = {913B0275-D66B-4660-AFA9-2E1EFDC9CB25}
 		{40AEAC07-0396-4E1B-88BE-3EE4C8ADA16C} = {913B0275-D66B-4660-AFA9-2E1EFDC9CB25}
+		{A0D5197E-B3F4-4A0E-925C-BA54AE30126A} = {913B0275-D66B-4660-AFA9-2E1EFDC9CB25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A8DB877-E851-4BD6-A249-C876C6E51B71}
